@@ -170,9 +170,9 @@ if __name__ == '__main__':
         '-f',
         '--file_name',
         type=str,
-        default='./data/working-paper.zip',
-        choices=['./data/working-paper.zip', './data/journal-article.zip'],
-        help='Ouput file path (default is ./data/working-paper.zip)',
+        default='./data/working-paper.csv',
+        choices=['./data/working-paper.csv', './data/journal-article.csv'],
+        help='Ouput file path (default is ./data/working-paper.csv)',
         metavar=''
     )
     args = parser.parse_args()
